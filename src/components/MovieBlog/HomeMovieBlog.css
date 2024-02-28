@@ -1,0 +1,615 @@
+/*search bar */
+
+.part2 {
+  display: none;
+}
+.home-keyword-show {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.each1-keyword {
+  border: 1px solid rgba(189, 197, 212, 1);
+
+  color: rgba(189, 197, 212, 1);
+
+  padding: 3px;
+  border-radius: 5px;
+  font-size: 12px;
+  margin: 0px 5px 0px 0px;
+  cursor: pointer;
+}
+
+.each1-keyword.selected {
+  color: #ffbe00;
+  background-color: #1a2c50;
+  border: 1px solid #1a2c50;
+}
+.home-title-all {
+  font-size: 36px;
+  margin-bottom: 0px;
+}
+.home-desc-all {
+  font-size: 16px;
+  margin: 10px 0px;
+}
+.filter-header-main {
+  margin: 4px 70px;
+}
+
+.searchbar-movie {
+  padding: 0px 15px;
+  width: 350px;
+  height: 30px;
+  border: 1px solid rgba(189, 197, 212, 1);
+  border-radius: 5px;
+}
+.searchbar-movie::placeholder {
+  color: rgba(189, 197, 212, 1);
+}
+
+.input-search-main {
+  margin: 10px 0px;
+}
+/*container*/
+
+.blog-poster-movie-main-con1 {
+  margin: 50px 40px;
+}
+
+.blog-one-con1 {
+  display: flex;
+  height: 420px;
+  justify-content: start;
+  padding: 20px;
+  border-radius: 20px;
+  gap: 10px;
+  margin: 0px 90px;
+  padding: 20px;
+  width: auto;
+  height: auto;
+}
+
+/* .movieblogimg {
+  height: 400px;
+  width: 750px;
+  padding: 10px 10px;
+  object-fit: cover;
+  border-radius: 20px;
+} */
+
+.movieblogimg {
+  height: 320px;
+  width: 550px;
+  padding: 10px 10px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/*details*/
+
+.blog-details {
+  padding: 20px;
+  cursor: pointer;
+}
+.bloghead {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.blog-tag1 {
+  border: 2px solid black;
+  color: black;
+  border-radius: 5px;
+  font-size: 10px;
+
+  padding: 2.5px;
+  color: black;
+}
+
+.blog-title1 {
+  align-items: center;
+  font-size: 25px;
+  color: black;
+  margin: 0px;
+  margin-right: 5px;
+}
+.blog-title1:hover {
+  text-decoration: underline;
+}
+
+.blog-desc1 {
+  font-size: 15px;
+  /* line-height: 1.5rem; */
+  color: black;
+}
+
+.blog-like-icon-count1 {
+  color: black;
+  display: flex;
+  margin: 0px;
+  gap: 10px;
+  align-items: center;
+}
+.blog-like-icon {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.blog-like-count {
+  font-size: 17px;
+  font-weight: bold;
+  color: black;
+}
+
+.blog-rele-date {
+  margin: 0px;
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+}
+
+.blog-date1 {
+  font-size: 17px;
+  font-weight: 500px;
+  color: rgb(0, 75, 145);
+}
+
+.postions {
+  padding: 10px 0px;
+  display: flex;
+  justify-content: start;
+  margin: 0px;
+}
+
+/*left side */
+
+.left-side {
+  display: flex;
+  gap: 50px;
+}
+
+@media (max-width: 1450px) {
+  .blog-poster-movie-main-con1 {
+    margin: 0px;
+  }
+  .blog-desc1 {
+    font-size: 14px;
+  }
+  .blog-like-icon {
+    font-size: 18px;
+  }
+  .blog-like-count {
+    font-size: 16px;
+  }
+  .blog-date1 {
+    font-size: 16px;
+    margin: 0px;
+  }
+  .movierelase {
+    margin: 5px 2px;
+  }
+}
+
+@media (max-width: 1275px) {
+  .left-side {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 1230px) {
+  .movieblogimg {
+    height: 320px;
+    width: 500px;
+    padding: 10px 10px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  .blog-one-con1 {
+    margin: 50px 70px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .movieblogimg {
+    height: 290px;
+    width: 435px;
+  }
+  .blog-one-con1 {
+    margin: 20px 30px;
+  }
+  .blog-title1 {
+    font-size: 22px;
+  }
+  .moviedesc1 {
+    margin: 3px;
+  }
+  .movierelase1 {
+    margin: 3px;
+  }
+  .left-side {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .imagehomovieblog {
+    height: 270px;
+    width: 420px;
+  }
+  .movieblog-desc {
+    padding: 0px;
+  }
+  .blog-one-con1 {
+    margin: 20px 0px;
+  }
+  .movieblogimg {
+    height: 250px;
+    width: 410px;
+  }
+}
+
+@media (max-width: 869px) {
+  .imagehomovieblog {
+    height: 250px;
+    width: 350px;
+  }
+  .blog-details1 {
+    padding: 0px 5px;
+  }
+  .filter-header-main {
+    margin: 4px 30px;
+  }
+}
+
+@media (max-width: 803px) {
+  .part1 {
+    display: none;
+  }
+  .part2 {
+    display: block;
+  }
+  .left-side {
+    flex-direction: row;
+    gap: 10px;
+  }
+  .movieblogimg {
+    height: 230px;
+    width: 350px;
+  }
+  .blog-one-con1 {
+    padding: 0px;
+  }
+  .blog-title1 {
+    font-size: 20px;
+  }
+  .blog-desc1 {
+    font-size: 12px;
+    line-height: 1rem;
+  }
+  .premium-type {
+    gap: 10px;
+    margin: 0px;
+  }
+  .blog-date1 {
+    font-size: 14px;
+  }
+  .blog-like-icon-count1 {
+    font-size: 13px;
+  }
+  .blog-tag1 {
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 9px;
+    padding: 1px;
+  }
+  .postions1 {
+    display: flex;
+    justify-content: start;
+    padding: 0px;
+  }
+}
+
+@media (max-width: 670px) {
+  .movieblogimg {
+    height: 225px;
+    width: 326px;
+  }
+  .left-side {
+    gap: 0px;
+  }
+  .blog-title1 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 655px) {
+  .left-side {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .blog-img1 {
+    display: flex;
+    justify-content: center;
+  }
+  .blog-details1 {
+    padding: 0px 50px;
+  }
+  .movieblogimg {
+    height: 250px;
+    width: 470px;
+  }
+  .movierelase1 {
+    margin: 8px 0px;
+  }
+  .blog-title1 {
+    font-size: 20px;
+  }
+  .blog-desc1 {
+    font-size: 13px;
+  }
+  .blog-like-icon-count1 {
+    font-size: 14px;
+    margin: 5px 0px;
+  }
+  .blog-date1 {
+    font-size: 15px;
+    margin: 10px 0px;
+  }
+}
+
+@media (max-width: 590px) {
+  .blog-details1 {
+    padding: 0px 30px;
+  }
+  .movieblogimg {
+    height: 220px;
+    width: 430px;
+  }
+  .blog-details1 {
+    padding: 0px 30px;
+  }
+  .blog-poster-movie-main-con1 {
+    margin: 40px 10px;
+  }
+}
+@media (max-width: 515px) {
+  .blog-details1 {
+    padding: 0px 25px;
+  }
+  .blog-title1 {
+    font-size: 19px;
+  }
+
+  .movieblogimg {
+    height: 200px;
+    width: 400px;
+  }
+}
+@media (max-width: 453px) {
+  .blog-details1 {
+    padding: 0px 20px;
+  }
+  .blog-title1 {
+    font-size: 19px;
+  }
+  .blog-desc1 {
+    font-size: 12px;
+  }
+  .blog-date1 {
+    font-size: 13px;
+  }
+  .searchbar-movie {
+    width: 277px;
+  }
+  .home-title-all {
+    font-size: 25px;
+  }
+  .home-desc-all {
+    font-size: 14px;
+    margin: 5px 0px;
+  }
+  .filter-header-main {
+    margin: 4px 20px;
+  }
+  .movierelase1 {
+    margin: 5px 0px;
+  }
+
+  .movieblogimg {
+    height: 180px;
+    width: 350px;
+  }
+}
+@media (max-width: 391px) {
+  .blog-details1 {
+    padding: 0px 18px;
+  }
+  .blog-title1 {
+    font-size: 16px;
+  }
+  .blog-desc1 {
+    font-size: 11px;
+  }
+  .blog-date1 {
+    font-size: 12px;
+  }
+  .searchbar-movie {
+    width: 260px;
+  }
+  .home-title-all {
+    font-size: 22px;
+  }
+  .home-desc-all {
+    font-size: 11px;
+    margin: 5px 0px;
+  }
+  .filter-header-main {
+    margin: 4px 18px;
+  }
+  .movierelase1 {
+    margin: 5px 0px;
+  }
+  .blog-poster-movie-main-con1 {
+    margin: 20px 2px;
+  }
+
+  .movieblogimg {
+    height: 160px;
+    width: 320px;
+  }
+}
+@media (max-width: 346px) {
+  .blog-details1 {
+    padding: 0px 10px;
+  }
+  .blog-title1 {
+    font-size: 15px;
+  }
+  .blog-desc1 {
+    font-size: 10px;
+  }
+  .blog-date1 {
+    font-size: 11px;
+  }
+  .searchbar-movie {
+    width: 250px;
+  }
+  .home-title-all {
+    font-size: 20px;
+  }
+  .home-desc-all {
+    font-size: 10px;
+    margin: 5px 0px;
+  }
+  .filter-header-main {
+    margin: 4px 18px;
+  }
+  .movierelase1 {
+    margin: 5px 0px;
+  }
+  .blog-poster-movie-main-con1 {
+    margin: 20px 2px;
+  }
+
+  .movieblogimg {
+    height: 150px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 320px) {
+  .blog-details1 {
+    padding: 0px 15px;
+  }
+  .blog-title1 {
+    font-size: 14px;
+  }
+  .blog-desc1 {
+    font-size: 9px;
+  }
+  .blog-date1 {
+    font-size: 10px;
+  }
+  .searchbar-movie {
+    width: 230px;
+  }
+  .home-title-all {
+    font-size: 19px;
+  }
+  .blog-desc1 {
+    font-size: 10px;
+    line-height: normal;
+  }
+  .home-desc-all {
+    font-size: 9px;
+    margin: 5px 0px;
+  }
+  .filter-header-main {
+    margin: 4px 15px;
+  }
+  .movierelase1 {
+    margin: 5px 0px;
+  }
+  .blog-poster-movie-main-con1 {
+    margin: 20px 2px;
+  }
+
+  .movieblogimg {
+    height: 140px;
+    width: 280px;
+  }
+}
+
+@media (max-width: 290px) {
+  .movieblogimg {
+    height: 132px;
+    width: 262px;
+  }
+  .filter-header-main {
+    margin: 5px 9px;
+}
+  .blog-like-icon-count1 {
+    font-size: 12px;
+  }
+  .blog-title1 {
+    font-size: 15px;
+    margin: 5px 0px;
+  }
+  .blog-desc1 {
+    font-size: 10px;
+  }
+  .blog-tag1 {
+    border: 1px solid black;
+    font-size: 7px;
+  }
+  .blog-date1 {
+    font-size: 10px;
+  }
+  .blog-like-count {
+    font-size: 10px;
+  }
+  .blog-like-icon {
+    font-size: 11px;
+  }
+  .blog-like-icon-count1 {
+    gap: 5px;
+  }
+  .postions {
+    gap: 7px;
+  }
+}
+
+@media (max-width: 270px) {
+  .home-title-all {
+    font-size: 17px;
+  }
+  .home-desc-all {
+    font-size: 8px;
+  }
+  .searchbar-movie {
+    width: 146px;
+    height: 22px;
+  }
+  .each1-keyword {
+    padding: 1.5px;
+    font-size: 9px;
+  }
+  .movieblogimg {
+    height: 115px;
+    width: 183px;
+  }
+  .blog-title1 {
+    font-size: 13px;
+  }
+  .blog-tag1 {
+    border: 1px solid black;
+    font-size: 6px;
+  }
+  .blog-desc1 {
+    font-size: 9px;
+  }
+}

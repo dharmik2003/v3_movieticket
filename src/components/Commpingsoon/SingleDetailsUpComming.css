@@ -1,0 +1,345 @@
+.up-single-main-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 50px; */
+}
+.up-single-movie-details {
+  max-width: 60%;
+  height: auto;
+  /* background-color: #c6943f; */
+}
+
+.up-single-title {
+  font-size: 30px;
+  margin: 0px;
+  color: black;
+  text-align: center;
+}
+.up-single-date {
+  font-size: 16px;
+  text-align: center;
+  margin: 0px;
+}
+.up-img-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.up-single-img {
+  margin: 20px 0px;
+  border-radius: 20px;
+  height: 300px;
+  width: 850px;
+  padding: 10px 10px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+.up-single-desc {
+  line-height: 25px;
+  font-size: 16px;
+}
+
+.up-single-text-desc {
+  font-size: 30px;
+  color: black;
+}
+
+/*trailer css*/
+
+.up-single-img-desc {
+}
+
+.up-single-img-desc:hover {
+}
+
+.up-img-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.up-single-desc {
+  /* line-height: 25px; */
+  font-size: 15px;
+}
+
+.up-single-text-desc {
+  font-size: 30px;
+  color: black;
+}
+
+.up-single-trailer {
+  text-align: center;
+  margin: 20px 0px;
+}
+.up-single-trailer-title {
+  font-size: 40px;
+  margin: 40px;
+  color: black;
+  text-align: center;
+}
+
+.up-single-youtube {
+  width: 860px;
+  height: 515px;
+  border-radius: 15px;
+}
+
+/*Like but*/
+.up-div-like {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.up-color-size {
+  display: flex;
+  border: 2px solid black;
+  width: 6%;
+  font-size: 22px;
+  padding: 5px;
+  border-radius: 100px;
+  height: 8%;
+  justify-content: center;
+  align-items: center;
+}
+
+/* button xxl this code for SignleUpcomming.tsx file */
+
+.up-Single-premium-type {
+  display: flex;
+  justify-content: start;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.up-prem-1 {
+  background: linear-gradient(to right, #f2c46f 0%, #c6943f 100%);
+  color: white;
+  border-radius: 5px;
+}
+.up-prem-2 {
+  background-color: #ec1e2b;
+  color: white;
+  border-radius: 5px;
+}
+.up-prem-3 {
+  background-color: #000e62;
+  color: white;
+  border-radius: 5px;
+}
+
+.up-padd {
+  margin: 50px 0px;
+}
+
+/* Add this to your existing CSS file */
+/* Add this to your existing CSS file */
+
+.up-other-movies-container {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  justify-content: start;
+  padding: 20px;
+}
+
+.up-other-movies-container::-webkit-scrollbar {
+  outline: none;
+}
+
+.up-other-movie {
+  width: 451px;
+  height: 380px;
+  margin-right: 25px;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+.up-other-movie:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* .up-other-movie-img {
+  width: 480px;
+  height: 340px;
+  padding: 20px;
+  border-radius: 20px;
+  object-fit: cover;
+  text-align: center;
+  border-radius: 40px;
+} */
+
+.up-other-movie-img {
+  width: 309px;
+  height: 250px;
+  padding: 20px;
+  object-fit: cover;
+  text-align: center;
+  border-radius: 40px;
+}
+
+.up-other-movie-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0px 50px 0px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+
+@media (max-width: 1000px) {
+  .up-other-movie {
+    width: 280px;
+    height: 337px;
+    padding: 0px 10px;
+  }
+  .up-other-movie-img {
+    width: 234px;
+    height: 220px;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  .up-other-movie-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 2px 50px 2px;
+  }
+  .up-other-movies-container {
+    padding-right: 0px;
+  }
+}
+@media (max-width: 886px) {
+  .up-single-movie-details {
+    max-width: 80%;
+  }
+}
+@media (max-width: 668px) {
+  .up-single-img {
+    height: 250px;
+    width: 650px;
+  }
+}
+@media (max-width: 577px) {
+  .up-single-img {
+    height: 200px;
+    width: 450px;
+  }
+  .up-single-title {
+    font-size: 25px;
+  }
+  .up-single-date {
+    font-size: 11px;
+  }
+  .up-single-desc {
+    line-height: 17px;
+    font-size: 12px;
+  }
+  .up-other-movie {
+    width: 215px;
+    height: 290px;
+  }
+  .up-other-movie-img {
+    width: 190px;
+    height: 199px;
+  }
+  .moviename {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0px;
+  }
+}
+@media (max-width: 440px) {
+  .up-single-img {
+    height: 150px;
+    width: 350px;
+  }
+  .up-single-title {
+    font-size: 20px;
+  }
+  .up-single-date {
+    font-size: 10px;
+  }
+  .up-single-desc {
+    line-height: 17px;
+    font-size: 10px;
+  }
+  .up-other-movie {
+    width: 191px;
+    height: 238px;
+  }
+  .up-other-movie-img {
+    width: 173px;
+    height: 162px;
+  }
+  .moviename {
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 322px) {
+  .up-single-img {
+    height: 140px;
+    width: 350px;
+  }
+  .up-single-title {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 360px) {
+  .up-single-img {
+    height: 145px;
+    width: 256px;
+  }
+  .up-other-movie {
+    width: 160px;
+    height: 208px;
+    margin-left: 10px;
+  }
+  .up-other-movie-img {
+    width: 133px;
+    height: 142px;
+  }
+  .moviename {
+    font-size: 10px;
+  }
+  .up-other-movie-title {
+    margin: 10px 2px 30px 2px;
+  }
+}
+@media (max-width: 321px) {
+  .up-single-main-con {
+    margin: 5px 0px;
+  }
+  .up-single-img {
+    height: 145px;
+    width: 256px;
+  }
+  .up-other-movie-title {
+    margin: 10px 2px 10px 2px;
+  }
+  .up-other-movie-img {
+    width: 133px;
+    height: 142px;
+    padding-bottom: 2px;
+  }
+  .moviename1 {
+    font-size: 11px;
+    margin: 0px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 300px) {
+  .up-single-img {
+    height: 125px;
+    width: 220px;
+  }
+}
+/*227 untill*/

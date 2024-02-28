@@ -1,0 +1,1007 @@
+/*new css file-------------------------------- */
+
+.main-con {
+  display: flex;
+  /* width: 100vw; */
+  gap: 120px;
+  justify-content: center;
+  margin-top: 15px;
+  padding: 10px;
+  /* background-color: #f2c46f; */
+}
+
+.left-con {
+  width: 55%;
+  /* background-color: #000e62; */
+  margin: 2px 0px 2px 40px;
+}
+.right-con {
+  gap: 15px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.se-scheduletitle {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  color: rgba(51, 51, 51, 1);
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.se-decs {
+  margin-top: 2px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(90, 99, 122, 1);
+}
+.se-container {
+  margin: 0px 0px 30px 0px;
+}
+
+/*right part css --------------------------*/
+
+.imageflexset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.imgclass {
+  height: 150px;
+  width: 150px;
+}
+.movie-details {
+  display: flex;
+  justify-content: start;
+  margin-left: 10px;
+}
+
+.category > ul {
+  padding-left: 0px;
+}
+.category > ul > li,
+.info > ul > li {
+  list-style-type: none;
+  color: rgba(0, 0, 0, 1);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.se-movieimg {
+  height: 350px;
+  width: 350px;
+  border-radius: 15px;
+}
+
+.se-movietitle {
+  padding-left: 10px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.se-butcon {
+  padding: 5px 10px;
+  margin: 20px 0px;
+  width: 318px;
+  height: 233px;
+  padding: 40px, 24px, 40px, 24px;
+  border-radius: 12px;
+  border: 1px;
+  gap: 36px;
+  border: 1px solid rgba(90, 99, 122, 1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.se-butcon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.centertext {
+  text-align: center;
+}
+.seatedtheatername {
+  color: rgba(51, 51, 51, 1);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 2px;
+}
+.selecteddate {
+  color: rgba(90, 99, 122, 1);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.dimention-and-date {
+  padding: 0px 20px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.dimention-and-date > p {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0px;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(51, 51, 51, 1);
+}
+.se-but-condition {
+  color: rgba(157, 168, 190, 1);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+}
+.se-but-booknow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(26, 44, 80, 1);
+  width: 268px;
+  height: 50px;
+  padding: 16px, 12px, 16px, 12px;
+  border-radius: 8px;
+  gap: 10px;
+  color: (255, 190, 0, 1);
+}
+.se-Booknow-but {
+  color: rgba(255, 190, 0, 1);
+  font-size: 20px;
+}
+.se-but-div {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*left part css------------------------*/
+
+.hrcsstry {
+  width: 600px;
+  margin-left: 0px;
+  /* color: rgba(196, 196, 196, 1); */
+}
+.locationcity {
+  display: flex;
+  align-items: center;
+}
+.fontsizeset {
+  color: rgba(0, 0, 0, 1);
+  color: rgba(196, 196, 196, 1);
+  font-size: 23px;
+}
+.sizeoodropdown {
+  font-size: 15px;
+  width: 105px;
+  height: 30px;
+  border: none;
+  outline: none;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(196, 196, 196, 1);
+}
+
+.all-filter-container {
+  display: flex;
+  margin: 10px 0px;
+  gap: 10px;
+}
+.threefilter {
+  display: flex;
+}
+.main-con-div-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.searchbar-div {
+  position: relative;
+}
+.searchicon-div {
+  margin-top: 3px;
+  position: absolute;
+  left: 257px;
+}
+.searchbar {
+  width: 220px;
+  height: 25px;
+  padding: 0px 10px;
+  border-radius: 5px;
+  color: rgba(90, 99, 122, 1);
+  border: 2px solid rgba(90, 99, 122, 1);
+}
+.searchbar::placeholder {
+  color: rgba(90, 99, 122, 1);
+}
+.searchicon {
+  color: rgba(90, 99, 122, 1);
+  font-size: 20px;
+}
+.borderremove {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.dropdown-colorset {
+  width: auto;
+  color: rgba(90, 99, 122, 1);
+}
+.clearfilter {
+  color: rgba(90, 99, 122, 1);
+  font-size: 12px;
+  cursor: pointer;
+  margin-bottom: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*theater css-----------*/
+.main-con-slot {
+  margin: 50px 0px;
+}
+.semimain-con {
+  margin: 60px 0px;
+  /* border: 1px solid rgba(157, 168, 190, 1); */
+}
+.se-theatername {
+  margin-top: 50px;
+  justify-content: space-between;
+  width: 60%;
+  /* background-color: yellow; */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 30px;
+}
+.fimeicon {
+  font-size: 23px;
+}
+.theatername {
+  font-size: 23px;
+  color: rgba(51, 51, 51, 1);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.theateraddress {
+  margin-top: 5px;
+  font-size: 13px;
+  color: rgba(90, 99, 122, 1);
+}
+.se-theater {
+  display: flex;
+  gap: 10px;
+}
+.filmeicon-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dimentiontitile {
+  color: rgba(90, 99, 122, 1);
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.se-timeslot-div {
+  display: flex;
+  gap: 10px;
+}
+
+.timenumber {
+  margin: 0px;
+}
+
+.se-timeslot-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.timeslot-border {
+  border: 1px solid rgba(157, 168, 190, 1);
+
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+/* Clearfix to ensure proper wrapping */
+.se-timeslot-div::after {
+  content: "";
+  flex-grow: 9999;
+}
+
+.CGV {
+  background-color: #ec1e2b;
+  color: white;
+  border-radius: 5px;
+  padding: 2px;
+}
+.CINEPOLIS {
+  background-color: #000e62;
+  color: white;
+  border-radius: 5px;
+  padding: 2px;
+}
+.XXI {
+  background-color: linear-gradient(to right, #f2c46f 0%, #c6943f 100%);
+  color: white;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+/* CSS for the time slot component */
+
+.timeslot-border {
+  border: 1px solid rgba(157, 168, 190, 1);
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.timeslot-border:hover {
+  background-color: #f0f0f0;
+}
+
+.timenumber {
+  margin: 0;
+}
+
+.timeslot-border.selected {
+  background-color: #000e62;
+  color: white;
+}
+.selected {
+  background-color: #000e62;
+  color: white;
+}
+.notselected {
+  background-color: white;
+  color: white;
+}
+
+.datepartseaction {
+  /* display: flex; */
+  width: 57%;
+}
+
+@media (max-width: 1241px) {
+  .main-con {
+    gap: 85px;
+  }
+  .eachdate {
+    padding: 8px;
+  }
+}
+@media (max-width: 1135px) {
+  .se-movieimg {
+    height: 321px;
+    width: 270px;
+  }
+  .se-movietitle {
+    padding-left: 0px;
+    font-size: 20px;
+  }
+  .category > ul > li,
+  .info > ul > li {
+    font-size: 16px;
+  }
+  .se-but-div {
+    margin-bottom: 0px;
+  }
+  .se-but-booknow {
+    width: 240px;
+    height: 42px;
+  }
+  .dimention-and-date > p {
+    font-size: 20px;
+  }
+  .seatedtheatername {
+    font-size: 24px;
+  }
+  .selecteddate {
+    font-size: 16px;
+  }
+  .se-butcon {
+    width: 280px;
+    height: 233px;
+  }
+
+  /*left part*/
+  .se-scheduletitle {
+    font-size: 32px;
+    margin-bottom: 0px;
+  }
+  .se-decs {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 13px;
+  }
+  .sliderpart {
+    gap: 8px;
+  }
+  .eachdate {
+    padding: 5px;
+    margin: 0px 2px;
+  }
+  .monthdate,
+  .dateday {
+    font-size: 14px;
+  }
+  .left-con {
+    width: 50%;
+  }
+  .hrcsstry {
+    width: 526px;
+  }
+  .all-filter-container {
+    gap: 8px;
+  }
+  .threefilter {
+    display: flex;
+  }
+  .searchbar {
+    width: 185px;
+  }
+  .searchicon-div {
+    left: 224px;
+  }
+  .se-theatername {
+    width: 90%;
+  }
+  .theatername {
+    font-size: 22px;
+  }
+  .theateraddress {
+    font-size: 12px;
+  }
+  .dimentiontitile {
+    font-size: 18px;
+  }
+  .se-timeslot-div {
+    gap: 5px;
+  }
+  .left-con {
+    margin-left: 35px;
+  }
+}
+
+@media (max-width: 945px) {
+  .left-con {
+    width: 85%;
+  }
+  .main-con {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .main-con {
+    padding: 0px;
+  }
+
+  .left-con {
+    margin-left: 0px;
+  }
+  .right-con {
+    gap: 15px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .splitdatatwopart {
+    margin: 0px;
+    display: flex;
+    gap: 20px;
+    justify-content: start;
+  }
+  .se-movieimg {
+    height: 325px;
+    width: 267px;
+  }
+  .right-con {
+    gap: 15px;
+    /* width: 200px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+    /* align-items: center; */
+  }
+  .se-movietitle {
+    font-size: 33px;
+  }
+  .category > ul > li,
+  .info > ul > li {
+    list-style-type: none;
+    color: rgba(0, 0, 0, 1);
+    font-size: 22px;
+  }
+  .splitdatatwopart {
+    gap: 70px;
+  }
+  .se-butcon {
+    width: 600px;
+    height: 267px;
+  }
+  .rightsidepart00 {
+    display: flex;
+    justify-content: center;
+  }
+  .se-butcon {
+    padding: 15px 40px;
+  }
+  .seatedtheatername {
+    font-size: 27px;
+  }
+  .selecteddate {
+    font-size: 18px;
+    margin-top: 44px;
+  }
+  .splitdatatwopart {
+    gap: 60px;
+  }
+}
+
+@media (max-width: 762px) {
+  .se-movietitle {
+    font-size: 28px;
+  }
+  .splitdatatwopart {
+    gap: 40px;
+  }
+  .se-movieimg {
+    height: 308px;
+    width: 246px;
+  }
+  .se-butcon {
+    padding: 15px 30px;
+  }
+  .se-butcon {
+    width: 525px;
+    height: 267px;
+  }
+  .datepartseaction {
+    /* display: flex; */
+    width: 66%;
+    background-color: white;
+  }
+}
+
+@media (max-width: 661px) {
+  .se-scheduletitle {
+    font-size: 26px;
+  }
+  .se-decs {
+    font-size: 11px;
+  }
+  .sliderpart {
+    gap: 5px;
+  }
+  .eachdate {
+    padding: 2px;
+    margin: 2px 2px;
+  }
+  .monthdate,
+  .dateday {
+    font-size: 11px;
+  }
+  .searchbar {
+    width: 165px;
+  }
+  .searchicon-div {
+    left: 194px;
+  }
+  .theatername {
+    font-size: 19px;
+  }
+  .fimeicon {
+    font-size: 19px;
+  }
+  .dimentiontitile {
+    font-size: 16px;
+  }
+  .timeslot-border {
+    padding: 4px;
+    margin: 0px;
+  }
+  .se-movieimg {
+    height: 280px;
+    width: 220px;
+  }
+  .splitdatatwopart {
+    gap: 20px;
+  }
+  .se-movietitle {
+    margin-top: 10px;
+    font-size: 25px;
+  }
+  .CGV {
+    font-size: 11px;
+  }
+  .CINEPOLIS {
+    font-size: 11px;
+  }
+  .left-con {
+    width: 90%;
+  }
+  .category > ul > li,
+  .info > ul > li {
+    font-size: 16px;
+  }
+  .se-butcon {
+    width: 460px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 575px) {
+  .left-con {
+    width: 95%;
+  }
+  .se-theatername {
+    width: 96%;
+  }
+  .searchicon-div {
+    left: 171px;
+  }
+  .se-movietitle {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  .se-butcon {
+    width: 400px;
+    height: 240px;
+  }
+  .rightsidepart00 {
+    margin-left: 12px;
+    justify-content: start;
+  }
+
+  .datepartseaction {
+    width: 72%;
+    background-color: white;
+  }
+  .hrcsstry {
+    width: 410px;
+  }
+  .category > ul > li,
+  .info > ul > li {
+    font-size: 14px;
+  }
+}
+
+/*500 thi baki 6e ho*/
+
+@media (max-width: 500px) {
+  .threefilter {
+    display: flex;
+    gap: 10px;
+  }
+  .all-filter-container {
+    flex-direction: column;
+  }
+  .clearfilter {
+    margin-top: 4px;
+  }
+  .left-con {
+    width: 85%;
+  }
+  .theatername {
+    font-size: 16px;
+  }
+  .theateraddress {
+    font-size: 10px;
+  }
+  .dimentiontitile {
+    font-size: 14px;
+  }
+  .timeslot-border {
+    padding: 2px;
+  }
+  .timenumber {
+    font-size: 11px;
+  }
+  .se-movieimg {
+    height: 225px;
+    width: 180px;
+  }
+  .splitdatatwopart {
+    gap: 10px;
+  }
+  .se-movietitle {
+    font-size: 17px;
+  }
+  .category > ul > li,
+  .info > ul > li {
+    font-size: 13px;
+  }
+  .right-con {
+    margin-left: 30px;
+  }
+  .se-butcon {
+    width: 360px;
+    height: 231px;
+  }
+  .seatedtheatername {
+    font-size: 25px;
+  }
+  .selecteddate {
+    font-size: 16px;
+    margin-top: 40px;
+  }
+  .se-but-booknow {
+    width: 230px;
+    height: 40px;
+  }
+  .hrcsstry {
+    width: 360px;
+  }
+}
+
+@media (max-width: 460px) {
+  .right-con {
+    margin-left: 20px;
+  }
+  .hrcsstry {
+    width: 300px;
+  }
+  .splitdatatwopart {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .se-movieimg {
+    height: 304px;
+    width: 268px;
+  }
+  .se-movietitle {
+    font-size: 22px;
+  }
+  .category > ul > li,
+  .info > ul > li {
+    font-size: 17px;
+  }
+  .rightsidepart00 {
+    margin-left: 0px;
+    justify-content: center;
+  }
+  .right-con {
+    margin-left: 0px;
+  }
+  .se-butcon {
+    width: 300px;
+    height: 225px;
+  }
+  .seatedtheatername {
+    font-size: 23px;
+  }
+  .selecteddate {
+    font-size: 14px;
+    margin-top: 30px;
+  }
+  .dimention-and-date > p {
+    font-size: 17px;
+  }
+  .se-but-condition {
+    font-size: 10px;
+  }
+  .se-butcon {
+    padding: 5px 20px;
+  }
+  .main-con {
+    align-items: start;
+  }
+  .left-con {
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 350px) {
+  .datepartseaction {
+    width: 84%;
+    background-color: white;
+  }
+  .hrcsstry {
+    width: 240px;
+  }
+  .se-scheduletitle {
+    font-size: 23px;
+  }
+  .se-decs {
+    font-size: 10px;
+  }
+  .threefilter {
+    display: flex;
+    gap: 4px;
+  }
+  .main-con-slot {
+    margin: 27px 0px;
+  }
+  .semimain-con {
+    margin: 35px 0px;
+  }
+  .dropdown-colorset {
+    font-size: 11px;
+  }
+  .clearfilter {
+    font-size: 11px;
+    margin-top: 7px;
+  }
+  .se-movieimg {
+    height: 260px;
+    width: 220px;
+  }
+  .se-movietitle {
+    font-size: 18px;
+    text-align: center;
+  }
+  .category > ul > li,
+  .info > ul > li {
+    font-size: 14px;
+  }
+  .se-butcon {
+    width: 226px;
+    height: 214px;
+  }
+  .seatedtheatername {
+    font-size: 20px;
+  }
+  .se-theater {
+    gap: 0px;
+  }
+  .CINEPOLIS {
+    font-size: 7px;
+  }
+  .CGV {
+    font-size: 7px;
+  }
+  .selecteddate {
+    font-size: 12px;
+    margin-top: 15px;
+  }
+  .dimention-and-date > p {
+    font-size: 15px;
+  }
+  .se-Booknow-but {
+    color: rgba(255, 190, 0, 1);
+    font-size: 15px;
+  }
+  .se-but-booknow {
+    width: 153px;
+    height: 32px;
+  }
+  .se-butcon {
+    width: 215px;
+    height: 199px;
+  }
+  .datepartseaction {
+    width: 75%;
+    background-color: white;
+  }
+  .left-con {
+    margin-left: 11px;
+  }
+}
+
+@media (max-width: 270px) {
+  .se-scheduletitle {
+    font-size: 19px;
+  }
+  .se-decs {
+    font-size: 8px;
+  }
+  .monthdate,
+  .dateday {
+    font-size: 9px;
+  }
+  .eachdate {
+    margin: 1px 1px;
+  }
+  .se-container {
+    margin: 0px 0px 15px 0px;
+  }
+  .hrcsstry {
+    width: 195px;
+  }
+  .threefilter {
+    gap: 0px;
+  }
+  .dropdown-colorset {
+    font-size: 9px;
+  }
+  .clearfilter {
+    font-size: 9px;
+    margin-top: 9px;
+  }
+  .se-theatername {
+    margin-top: 20px;
+    justify-content: start;
+  }
+  .se-theater {
+    gap: 2px;
+  }
+  .se-movieimg {
+    height: 210px;
+    width: 170px;
+  }
+  .se-movietitle {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  .category > ul > li,
+  .info > ul > li {
+    font-size: 10px;
+    line-height: 22px;
+  }
+  .se-butcon {
+    width: 174px;
+    height: 189px;
+  }
+  .se-butcon {
+    padding: 5px 10px;
+  }
+  .selecteddate {
+    font-size: 11px;
+
+    margin-bottom: 2px;
+  }
+  .dimention-and-date {
+    padding: 0px 0px 0px 0px;
+  }
+  .seatedtheatername {
+    font-size: 17px;
+    margin-bottom: 5px;
+  }
+  .se-but-booknow {
+    width: 150px;
+    height: 32px;
+  }
+  .theatername {
+    font-size: 13px;
+  }
+  .CINEPOLIS {
+    font-size: 6px;
+  }
+  .CGV {
+    font-size: 6px;
+  }
+}
+@media (max-width: 260px) {
+  .datepartseaction {
+    width: 79%;
+  }
+}

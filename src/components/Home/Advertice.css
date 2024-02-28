@@ -1,0 +1,109 @@
+/* .poster {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding-bottom: 100px;
+}
+.poster-in {
+  position: relative;
+  background-color: #f3f3f3;
+  height: 304px;
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.verticals-text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 64px;
+  justify-content: start;
+  margin-left: 64px;
+}
+.imgg {
+  margin-left: 8px;
+}
+.vertical-text-1 {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.web_intra_link {
+  height: 100vh;
+  width: 200px;
+  justify-content: start;
+}
+.verticals-text > div > p {
+  font-family: "Lato", sans-serif;
+
+  margin: 5px;
+  font-size: 38px;
+  color: #000000;
+}
+.inline_link {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-top: 50px;
+  gap: 0.4rem;
+  margin-bottom: 0;
+}
+
+.Jems-john {
+  height: 100%;
+  width: 40%;
+}
+.jems img {
+  right: 490px;
+  bottom: 0px;
+  position: absolute;
+}
+.john img {
+  right: 318px;
+  bottom: 0px;
+  position: absolute;
+} */
+
+/* Advertice.css */
+
+.ad-poster-container {
+  margin: 20px;
+  margin: 80px 0;
+}
+
+.horizontal-scroll-view1 {
+  display: flex;
+  /* width: 0 auto; */
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.scroll-circle-small {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff; /* Change the background color as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+  border: 2px solid black; /* Add border */
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-img {
+  min-width: 90vw;
+  height: 265px;
+}
+
+/* .main-img {
+  min-width: 90vw;
+  height: 350px;
+} */
+

@@ -1,0 +1,264 @@
+.navbar {
+  /* width: 100vw; */
+  height: 55px;
+  padding: 8px 22px; /* Updated padding syntax */
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ccc; /* Add a border bottom */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow */
+}
+.humburger {
+  display: none;
+}
+
+.leftpartnav {
+  float: left;
+  width: "64px";
+  height: "64px";
+  top: 16px;
+  margin-left: 40px;
+}
+
+.rightpartnav {
+  gap: 48px;
+  float: right;
+  top: 16px;
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: linear-gradient(to right, #f2c46f 0%, #c6943f 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+}
+.nav-text {
+  display: flex;
+  font-size: 17px;
+  align-items: center;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.nav-text:hover {
+  text-decoration: underline;
+}
+
+.notifIcon {
+  font-size: 25px;
+}
+
+/*login*/
+
+.home-nav-Login-but {
+  height: 35px;
+  border-radius: 10px;
+  width: 120px;
+  background: rgba(26, 44, 80, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.home-nav-login-text {
+  margin: 0px;
+  color: rgba(255, 190, 0, 1);
+}
+.leftpartnav {
+  margin-left: 30px;
+}
+
+.signuploginpage {
+  display: flex;
+}
+@media (max-width: 941px) {
+  .rightpartnav {
+    gap: 25px;
+  }
+  .home-nav-Login-but {
+    height: 31px;
+    border-radius: 10px;
+    width: 80px;
+  }
+  .leftpartnav {
+    margin-left: 20px;
+  }
+  .rightpartnav {
+    margin-right: 20px;
+  }
+}
+@media (max-width: 810px) {
+  .rightpartnav {
+    gap: 20px;
+  }
+
+  .home-nav-Login-but {
+    height: 30px;
+    border-radius: 50px;
+    /* width: 30px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .leftpartnav {
+    margin-left: 10px;
+  }
+  .rightpartnav {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .second {
+    /* display: none; */
+  }
+  .third {
+    /* display: none; */
+  }
+  .rightpartnav {
+    margin-right: 2px;
+    gap: 15px;
+  }
+  .nav-text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 550px) {
+  .humburger {
+    display: block;
+    position: relative;
+  }
+  .home-nav-Login-but {
+    background: rgba(255, 190, 0, 1);
+  }
+  .home-nav-login-text {
+    color: white;
+  }
+
+  .rightpartnav {
+    display: none;
+  }
+  .menuicon {
+    font-size: 30px;
+    color: black;
+  }
+  .navbar {
+    position: relative;
+  }
+  .humburger {
+    position: absolute;
+    top: 25px;
+    right: 11px;
+    width: 50px;
+    height: 50%;
+    transition: width 0.5s ease;
+    z-index: 10;
+  }
+  .humburger.open {
+    top: 0px;
+
+    width: 50%;
+    height: 100vh;
+    background-color: rgba(26, 44, 80, 1);
+  }
+  .colortextset {
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 400px) {
+  .navicon {
+    /* display: none; */
+  }
+  .humburger.open {
+    width: 100%;
+    right: 0px;
+  }
+  .colortextset {
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 300px) {
+  .leftpartnav {
+    margin-left: 5px;
+  }
+  .leftpartnav > img {
+    width: 40px;
+  }
+  .rightpartnav {
+    gap: 10px;
+  }
+  .home-nav-login-text {
+    font-size: 14px;
+  }
+  .menuicon {
+    font-size: 20px;
+    color: black;
+  }
+  .nav-text {
+    font-size: 12px;
+  }
+  .home-nav-Login-but {
+    height: 22px;
+    width: 22px;
+  }
+  .login-signup-buton {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+  }
+  .nav-text {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  .colortextset {
+    color: white;
+    padding: 10px;
+    font-size: 13px;
+  }
+  .navbar {
+    padding: 5px 0px;
+  }
+}
+
+/*humburger code*/
+/* 
+
+.humburger {
+    position: absolute;
+    top: 25px;
+    right: 0px;
+    width: 50px;
+    height: 50%;
+    transition: width 0.5s ease;
+    z-index: 10;
+  }
+  .humburger.open {
+    top: 0px;
+    width: 50%;
+    height: 100vh;
+    background-color: rgba(26, 44, 80, 1);
+  }
+  .colortextset {
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+  } */

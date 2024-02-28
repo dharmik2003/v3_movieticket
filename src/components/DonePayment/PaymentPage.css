@@ -1,0 +1,149 @@
+.payment-maincon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.widthofcon {
+  width: 40%;
+  padding: 10px;
+  margin: 0px 10px;
+}
+
+.payment-success {
+  font-size: 30px;
+  text-align: center;
+}
+.payment-second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.paymentpage-img {
+  position: relative;
+  width: 280px;
+  height: 250px;
+}
+.paymentimg1 {
+  position: absolute;
+  top: 10px;
+  left: 0px;
+}
+.paymentimg2 {
+  position: absolute;
+  top: 110px;
+  left: 100px;
+}
+.Myticket {
+  margin: 30px 0px;
+  width: 150px;
+  height: 32px;
+  font-size: 16px;
+  padding: 2px 5px;
+  border-radius: 6px;
+  border: 1.5px solid rgba(90, 99, 122, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.myticket-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Myticket:hover {
+  background-color: #1a2c50;
+  color: rgba(255, 190, 0, 1);
+}
+.buybuttext {
+  color: rgba(157, 168, 190, 1);
+}
+.buybuttext:hover {
+  color: rgba(255, 190, 0, 1);
+}
+.paymentdesrc {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(90, 99, 122, 1);
+}
+@media (max-width: 1000px) {
+  .widthofcon {
+    width: 60%;
+  }
+}
+@media (max-width: 550px) {
+  .widthofcon {
+    width: 75%;
+  }
+}
+@media (max-width: 390px) {
+  .widthofcon {
+    width: 80%;
+  }
+  .payment-success {
+    font-size: 25px;
+  }
+  .paymentpage-img {
+    position: relative;
+    width: 270px;
+    height: 235px;
+  }
+  .paymentimg1 {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    height: 140px;
+    width: 148px;
+  }
+  .paymentimg2 {
+    position: absolute;
+    top: 93px;
+    left: 88px;
+    height: 100px;
+    width: 160px;
+  }
+  .paymentdesrc {
+    font-size: 15px;
+  }
+}
+@media (max-width: 296px) {
+  .payment-success {
+    font-size: 20px;
+  }
+  .paymentimg1 {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    height: 110px;
+    width: 118px;
+  }
+  .paymentimg2 {
+    position: absolute;
+    top: 80px;
+    left: 72px;
+    height: 70px;
+    width: 130px;
+  }
+  .widthofcon {
+    width: 90%;
+    padding: 0px;
+    margin: 0px 0px;
+  }
+}
+
+@media (max-width: 300px) {
+  .paymentdesrc {
+    font-size: 14px;
+  }
+  .payment-success {
+    font-size: 22px;
+  }
+  .paymentpage-img {
+    height: 180px;
+    width: 186px;
+  }
+}

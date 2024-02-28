@@ -1,0 +1,262 @@
+.backfunction {
+  margin: 15px 0px 0px 10px;
+  cursor: pointer;
+}
+
+.confirm-main-con {
+  display: flex;
+  justify-content: center;
+  /* margin-top: 15px; */
+}
+.confirm-left {
+  margin: 0px 20px 20px 20px;
+  padding: 0px 30px;
+  width: 30%;
+  /* background-color: antiquewhite; */
+}
+.confirmtitle {
+  font-size: 25px;
+  color: rgba(51, 51, 51, 1);
+  margin-bottom: 30px;
+  margin-top: 5px;
+}
+.alltitle {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(51, 51, 51, 1);
+  margin-bottom: 5px;
+}
+.allans {
+  margin: 12px 0px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 2px;
+}
+.hrcss {
+  text-align: start;
+  width: 90%;
+  margin: 0px;
+}
+.datetimepart {
+  width: 60%;
+  /* background-color: aqua; */
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+.mar {
+  margin: 5px 0px;
+}
+
+/* .classtime {
+  padding-right: 30px;
+} */
+
+.rightsidepart {
+  border: 1px solid #ccc;
+  box-shadow: 2.5px 2.5px 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+.rightsidepart:hover {
+  transform: scale(1.05);
+}
+.ticketprice {
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+}
+.inputfield {
+  width: 50%;
+  height: 20px;
+}
+.applybut {
+  margin-left: 20px;
+  width: 100px;
+  height: 28px;
+  font-size: 12px;
+  border: 1px solid #1a2c50;
+  background-color: #1a2c50;
+  color: rgba(255, 190, 0, 1);
+  border-radius: 5px;
+}
+.applydiscount {
+  color: #00b500;
+  margin: 2px 0px;
+}
+.dicountline {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rightsidesecond-part {
+  margin-bottom: 20px;
+}
+.lastpayment-div {
+  margin-top: 20px;
+}
+
+.butnowbutton {
+  width: 300px;
+  height: 40px;
+  background-color: #1a2c50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.buynow {
+  color: rgba(255, 190, 0, 1);
+}
+.but-main-con {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hightset {
+  height: 40px;
+}
+.margremove {
+  margin-bottom: 5px;
+}
+@media (max-width: 1100px) {
+  .confirm-left {
+    width: 34%;
+  }
+  .confirmtitle {
+    font-size: 20px;
+  }
+  .allans {
+    font-size: 20px;
+  }
+  .alltitle {
+    font-size: 15px;
+  }
+  .mar {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 956px) {
+  .allans {
+    font-size: 18px;
+  }
+}
+@media (max-width: 750px) {
+  .rightsidesecond-part {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .inputfield {
+    width: 75%;
+    height: 20px;
+  }
+  .applybut {
+    margin-left: 0px;
+  }
+  .totalpay {
+    font-size: 18px;
+  }
+  .confirm-main-con {
+    margin-top: 22px;
+  }
+}
+
+@media (max-width: 579px) {
+  .confirm-left {
+    margin: 0px 10px 20px 10px;
+    padding: 0px 20px;
+  }
+}
+@media (max-width: 520px) {
+  .confirm-main-con {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .confirmtitle {
+    margin-bottom: 10px;
+  }
+  .allans {
+    margin: 0px 0px;
+    font-size: 16px;
+  }
+  .confirm-left {
+    width: 75%;
+    margin-left: 20px;
+    padding: 10px 20px;
+  }
+  .rightsidepart {
+    width: 75%;
+    margin-left: 20px;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 313px) {
+  .confirmtitle {
+    margin-bottom: 9px;
+    font-size: 18px;
+  }
+  .alltitle {
+    font-size: 13px;
+  }
+  .allans {
+    font-size: 14px;
+  }
+  .mar {
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  .butnowbutton {
+    width: 200px;
+    height: 35px;
+  }
+  .rightsidepart {
+    width: 75%;
+    margin-left: 12px;
+    padding: 10px 20px;
+  }
+}
+@media (max-width: 275px) {
+  .confirmtitle {
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+  .alltitle {
+    font-size: 13px;
+  }
+  .allans {
+    font-size: 14px;
+  }
+  .mar {
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  .butnowbutton {
+    width: 200px;
+    height: 35px;
+  }
+  .rightsidepart {
+    width: 75%;
+    margin-left: 12px;
+    padding: 10px 20px;
+  }
+  .confirm-left {
+    width: 80%;
+    margin-left: 10px;
+    padding: 10px 10px;
+  }
+}
